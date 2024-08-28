@@ -1,0 +1,143 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #222; /* Dark background color */
+    color: #fff; /* Light text color */
+    text-align: center;
+}
+
+/* Navigation styles */
+
+/* Container styles */
+.container {
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent light background */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+    text-align: left; /* Adjusted to left-align content */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    color: #333; /* Dark text color for better readability */
+}
+
+/* Testimonial styles */
+.testimonial {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Light background for testimonial */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Soft shadow */
+    text-align: center;
+}
+
+.testimonial p {
+    margin-bottom: 10px;
+    font-style: italic;
+    color: #333;
+}
+
+/* Video container styles */
+.video-container {
+    margin-top: 30px;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Soft shadow */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Hero section styles */
+.hero-section {
+    background-image: url('media/institute-management1.jpg'); /* Replace with your hero image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px; /* Adjust padding as needed */
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #80ffff;
+    color: #222;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Dropdown styles */
+.dropdown-hero {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-hero-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: left;
+    border-radius: 4px;
+}
+
+.dropdown-hero-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-hero-content a:hover {
+    background-color: #666;
+}
+
+.dropdown-hero:hover .dropdown-hero-content {
+    display: block;
+}
